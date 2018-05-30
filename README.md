@@ -1,11 +1,6 @@
-# Frontend Interview Project
+# Frontend React/Redux Project
+
+A React project utilizing Redux to call a deck of cards API.
 
 - Install dependencies
 - Run the npm server
-
-
-### React/Redux Starter Kit
-
-> Provided for the students of the [Bottega Code School](https://bottega.tech/)
-
-*Fork from [es6-webpack2-starter](https://github.com/micooz/es6-webpack2-starter)*
