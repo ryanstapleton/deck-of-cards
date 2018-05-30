@@ -1,0 +1,17 @@
+.interface-box {
+  height: 300px;
+  width: $appWidth;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: $dropShadow;
+  padding: 20px;
+}
+
+.interface-content {
+  font-size: 16px;
+  font-family: $fontSecondary;
+  color: $bodyFontColor;
+  li {
+    list-style-type: none;
+  }
+}

@@ -1,0 +1,24 @@
+@import 'settings';
+@import 'components/header';
+@import 'components/interface';
+@import 'components/button';
+
+body {
+  background-color: $backgroundColor;
+}
+
+.container {
+  display: grid;
+  justify-content: center;
+  align-content: space-around;
+  margin-top: 100px;
+  height: 425px;
+}
+
+.button-area {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  justify-content: center;
+  justify-items: center;
+  margin-top: 5px;
+}

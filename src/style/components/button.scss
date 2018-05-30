@@ -1,0 +1,12 @@
+.btn {
+  display: grid;
+  justify-items: center;
+  align-content: center;
+  height: 40px;
+  width: 175px;
+  background-color: $highlightPrimary;
+  border: 1px solid $highlightBorder;
+  color: $headerFontColor;
+  border-radius: 8px;
+  box-shadow: $dropShadow;
+}

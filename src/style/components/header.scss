@@ -1,0 +1,20 @@
+.heading {
+  display: grid;
+  justify-items: center;
+  align-content: center;
+  height: 100px;
+  width: $appWidth;
+  background-color: $highlightPrimary;
+  border: 1px solid $highlightBorder;
+  color: $headerFontColor;
+  border-radius: 8px;
+  box-shadow: $dropShadow;
+  h1 {
+    font-family: $fontPrimary;
+    font-size: 22px;
+  }
+}
+
+.emphasis {
+  font-size: 25px;
+}
