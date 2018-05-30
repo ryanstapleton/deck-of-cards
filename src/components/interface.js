@@ -33,7 +33,7 @@ function mapStateToProps(state) {
 
 function mapDispatchToProps(dispatch) {
   return {
-    fetchTwoCards:()=> {
+    fetchTwoCards:() => {
       dispatch(fetchTwoCards())
     }
   }

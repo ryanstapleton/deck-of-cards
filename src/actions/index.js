@@ -28,7 +28,9 @@ export function fetchTwoCards() {
     payload: [8, 2]
   }
 }
+
 export function startPullCycle() {}
+
 export function setStatus(status) {
   return {
     type: SET_STATUS,
